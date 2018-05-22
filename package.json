@@ -1,6 +1,6 @@
 {
   "name": "ng-busy",
-  "version": "1.4.6",
+  "version": "1.4.10",
   "description": "Show busy/loading indicators on any promise or subscription",
   "main": "./bundles/ng-busy.umd.js",
   "module": "./ng-busy.es5.js",
@@ -16,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/victos/ng-busy"
   },
-
   "keywords": [
     "angular",
     "angular2",
@@ -57,18 +56,19 @@
     "release": "standard-version"
   },
   "peerDependencies": {
-    "@angular/core": ">=5.0.0 <6.0.0"
+    "@angular/core": ">=6.0.0 <7.0.0"
   },
   "devDependencies": {
-    "@angular/animations": "^5.1.1",
-    "@angular/common": "^5.0.0",
-    "@angular/compiler": "^5.0.0",
-    "@angular/compiler-cli": "^5.0.0",
-    "@angular/core": "^5.0.0",
-    "@angular/forms": "^5.0.0",
-    "@angular/http": "^5.0.0",
-    "@angular/platform-browser": "^5.0.0",
-    "@angular/platform-browser-dynamic": "^5.0.0",
+    "@angular/animations": "^6.0.0",
+    "@angular/cli": "^6.0.1",
+    "@angular/common": "^6.0.0",
+    "@angular/compiler": "^6.0.0",
+    "@angular/compiler-cli": "^6.0.0",
+    "@angular/core": "^6.0.0",
+    "@angular/forms": "^6.0.0",
+    "@angular/http": "^6.0.0",
+    "@angular/platform-browser": "^6.0.0",
+    "@angular/platform-browser-dynamic": "^6.0.0",
     "@types/jasmine": "2.5.36",
     "@types/node": "^6.0.46",
     "camelcase": "^4.0.0",
@@ -87,22 +87,24 @@
     "karma-remap-coverage": "^0.1.4",
     "less": "^2.7.3",
     "lite-server": "^2.2.2",
+    "protractor": "^5.3.2",
     "rimraf": "^2.6.1",
     "rollup": "^0.42.0",
     "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-plugin-sourcemaps": "^0.4.1",
     "rollup-plugin-uglify": "^2.0.1",
-    "rxjs": "^5.5.2",
+    "rxjs": "^6.0.0",
     "standard-version": "^4.0.0",
     "systemjs": "^0.19.40",
     "systemjs-plugin-css": "^0.1.36",
     "systemjs-plugin-less": "^0.1.2",
     "tslint": "^4.4.2",
-    "typescript": "~2.4.2",
+    "typescript": "~2.7.0",
     "zone.js": "^0.8.4"
   },
-  "dependencies": {
-    "rxjs": "^5.5.2"
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "http://artifacts/api/npm/npm-registry"
   }
 }

@@ -8,8 +8,8 @@ import {HttpClient} from '@angular/common/http';
 
 import {BUSY_CONFIG_DEFAULTS, IBusyConfig} from 'ng-busy';
 import {TemplateService} from '../service/template.service';
-import {Observable} from 'rxjs/Observable';
-import {Observer} from 'rxjs/Observer';
+import {Observable} from 'rxjs';
+import {Observer} from 'rxjs';
 
 
 @Component({

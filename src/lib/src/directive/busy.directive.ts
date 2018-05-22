@@ -13,7 +13,7 @@ import {
     Output,
     EventEmitter
 } from '@angular/core';
-import {Subscription} from 'rxjs/Subscription';
+import {Subscription} from 'rxjs';
 
 import {equals} from '../tools/util';
 import {TrackerService} from '../service/tracker.service';

@@ -61,13 +61,13 @@ return Promise.resolve()
         // the window object.
         // See https://github.com/rollup/rollup/wiki/JavaScript-API#globals for more.
         '@angular/core': 'ng.core',
-        'rxjs/Subscription': 'Rx'
+        'rxjs': 'Rx'
       },
       external: [
         // List of dependencies
         // See https://github.com/rollup/rollup/wiki/JavaScript-API#external for more.
         '@angular/core',
-        'rxjs/Subscription'
+        'rxjs'
       ],
       plugins: [
         commonjs({
